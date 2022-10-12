@@ -1,0 +1,23 @@
+{
+  "name": "preentregable3figueroa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroFigueroa/preEntregable3Figueroa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroFigueroa/preEntregable3Figueroa/issues"
+  },
+  "homepage": "https://github.com/LeandroFigueroa/preEntregable3Figueroa#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
