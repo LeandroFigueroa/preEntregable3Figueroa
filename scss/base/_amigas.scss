@@ -1,0 +1,20 @@
+.img-amigas{
+    width: 350px;
+    height: 300px;
+    
+    margin: 2rem;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px #999;
+   
+
+    &:hover {
+        border-radius:50%;
+        -webkit-border-radius:50%;
+        box-shadow: 0px 0px 15px 15px #FF0063;
+        -webkit-box-shadow: 0px 0px 15px 15px #66BFBF;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transition:all .5s ease-in-out;
+        }
+}
+

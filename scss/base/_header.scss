@@ -3,6 +3,7 @@
     width: 100%;
     position: relative;
     z-index: 100;
+    box-shadow: 2px 2px 5px #999;
 
     .nav-nav {
         background: #66BFBF;
@@ -22,6 +23,8 @@
                 padding: 0 15px;
                 white-space: nowrap;
                 margin: 0.75rem;
+                text-shadow: 1px 1px 2px black;
+                
 
 
                 .a-nav {
@@ -34,6 +37,7 @@
                     font-weight: 700;
                     line-height: 1.5;
                     text-decoration: none;
+                    
 
                     &:hover {
 
@@ -47,4 +51,10 @@
         }
     }
 
+}
+
+.div-img{
+    width: 100%;
+    margin: 5px 0 0 0 ;
+    
 }
