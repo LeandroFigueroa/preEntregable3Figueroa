@@ -1,25 +1,36 @@
-.img-amigas{
-    width: 350px;
-    height: 300px;
-    
-    margin: 2rem;
+.text-center {
+
+    text-align: center !important;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
     border-radius: 50px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
     box-shadow: 2px 2px 5px #999;
-   
+    margin-bottom: 1.5rem !important;
+    margin-top: 5rem !important;
 
     &:hover {
-        border-radius:50%;
-        -webkit-border-radius:50%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
         box-shadow: 0px 0px 15px 15px #FF0063;
         -webkit-box-shadow: 0px 0px 15px 15px #66BFBF;
         transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
-        transition:all .5s ease-in-out;
-        }
+        transition: all .5s ease-in-out;
+    }
 }
 
-.column-ami {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
+
+
+@media screen and (max-width:601px) {
+    .img-thumbnail {
+        margin-top: 1rem!important;
+        margin-bottom: 0.5rem!important;
+    }
+}
